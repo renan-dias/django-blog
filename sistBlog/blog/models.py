@@ -3,6 +3,7 @@ from ckeditor_uploader.fields import RichTextUploadingField
 from django.contrib.auth.models import User
 from django.db import models
 
+
 class Post(models.Model):
     title = models.TextField(max_length=255)
     summary = RichTextField()
